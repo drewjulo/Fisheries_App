@@ -1,0 +1,63 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyFish.Welfaress"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <phone:Pivot Title="Welfare">
+            <!--Pivot item one-->
+            <phone:PivotItem Header="Social Investment">
+                <TextBlock TextWrapping="Wrap" Text="
+Fisheries policies often pursue multiple objectives, which may, in some instances, be in conflict or competition with each other. It may not be possible, for example, to create or maintain employment and generate increasing volumes of revenue for government whilst also sustaining stocks and biodiversity. Two approaches to fisheries management, one focused on capturing wealth and limiting access and the other on maintaining access for employment and providing community development and welfare, present contrasting policy advice, with different points of emphases and objectives. This article examines the case of Lake Victoria, where the three main commercial fisheries are seen to contribute to different objectives for the lake's fisheries. Insights from the debate between wealth-based and welfare-based approaches to fisheries management provide a framework for the analysis of fisheries policy and practice on the lake. From the analysis, it is concluded that whilst there is much rhetoric in support of a wealth-based approach, this has not been followed through in implementation, reflecting the lack of political support for new taxation and limiting access. The welfare functions of the fisheries are significant, but could be substantially strengthened through greater investment in the provision of services to fisheries communities. The approaches are not mutually exclusive, but pursuing wealth-based management must support livelihoods, employment and development, as well as fisheries management objectives. Without the incorporation of welfare objectives, fisheries policies will not be politically accepted or fully implemented, suggesting the need for a balance between wealth and welfare objectives and measures.
+As a fish export trader, Tuako* plays the role of middleman between fishermen and factories. He works at a fish landing site in Uganda, where he buys fish from the fishermen, places them in a truck with ice to hold them fresh and sells them to factories.  His business is strongly influenced by the nature of trust and credit dependency relationships to the fishermen and factories he mediates between.
+
+Member states of the East African Community (EAC) will soon find it difficult to export their fish to European Union nations unless they put in place joint efforts to stamp out chemical fishing in Lake Victoria.
+ 
+Kenya, Tanzania and Uganda share the waters of Lake Victoria, however reports appearing in local press indicate there is an alarming increase in cases where some unscrupulous fishermen are using chemicals fishing to boost their catches and other unconventional fishing methods, such as the use of unauthorized fishing gears and banned fish nets etc.
+Countries that share Lake Victoria are also reported to be unwilling to invest money in a joint campaign that would reduce overfishing and protect fish species threatened with extinction in the lake despite the contribution these activities make to the economies of these countries.
+ 
+Overfishing has led to the reduction of fish stocks in Uganda's big natural water bodies, which contribute over 75 per cent of the total fish catch, thus threatening the country's second biggest commodity export after coffee.
+ 
+Fish prices have been on increase, but increment has not been reflected in earnings due to the reduction in the fish catch, which experts blame on dwindling stocks.
+"/>
+            </phone:PivotItem>
+
+            <!--Pivot item two-->
+            <phone:PivotItem Header="Addition">
+                <TextBlock TextWrapping="Wrap" Text="The fisheries sector in each EAC Partner State operates under the wider umbrella of national development frameworks. In all three Partner States, significant developments have taken place through revision and updating of their national Poverty Reduction Strategy Papers (PRSPs). The PRSPs provide the strategic frameworks which guide national development through Medium Term Expenditure Frameworks (MTEF) and national sector plans and budgets. All three States are striving to achieve the Millennium Development Goals (MDGs). Sector plans, and national and regional projects within these plans, must be closely aligned to the wider development objectives and strategies set out in the PRSPs and must clearly demonstrate their contributions to poverty reduction and economic growth.
+In Kenya, a new 3-year development framework is set out in the Economic  Recovery Strategy for Wealth and Employment Creation, 2003-2006. This Strategy aims to build a modern, prosperous nation through pro-poor growth supported by improved democracy, empowerment of people, institutional reform and good governance.
+
+In Tanzania, the National Strategy for Growth and Reduction of Poverty (NSGRP), 2005-2010 focuses on poverty reduction and stresses that economic growth is necessary but not sufficient for poverty reduction. One of the key aims of the NSGRP is to diversify rural livelihoods to relieve increasing pressure on common property resources.
+
+In Uganda, the government has prepared its second PRSP, known as the Poverty Eradication Action Plan (PEAP). The Department of Fisheries resources, supported strongly by the ILM project, succeeded in securing the recognition that the fisheries sector is a major contributor to poverty reduction and economic growth and were able to get fisheries priorities incorporated for the first into the PEAP. 
+
+Two of the most recent and influential initiatives, the DFID-funded Integrated Lake Management Project (ILM) on Lakes George and Kyoga in Uganda which ended in 2004, and the on-going Implementation of a Fisheries Management Plan project (IFMP) on Lake Victoria, funded by the European Union.
+On Lake Victoria, the Lake Victoria Basin Commission was recently established to coordinate broad areas of development within the lake basin. Prior to this, the Lake Victoria Fisheries Organisation (LVFO) was formed through a Convention signed in 1994 by the three EAC Partner States out of the need to manage fisheries resources of Lake Victoria in a coordinated manner. The LVFO Convention sets out the structure and functions of the Organisation. The LVFO brings together Heads of national fisheries institutions (management and research) to consult, share ideas and develop harmonised policies, plans and laws not only for Lake Victoria but quite often,
+nationally. Consequently, a fishery is one of the most closely harmonised of all sectors in EAC and the LVFO is recognised for bringing harmony and efficiency to the very competitive sector of capture fisheries.
+Information from Lake Victoria Fisheries Organization (LVFO) shows that Uganda, Tanzania and Kenya promised to contribute USD 600,000 each for the  Save the Nile Perch Fund, but so far none has given a single penny.
+The Nile Perch has, over the years, seen a reduction in its stocks and the money was meant to improve the stocks of this important fish in East Africa. The money was meant to increase to finance the capacity building of partner state institutions, research and combating of illegal fishing activities.
+The highly prized Nile Perch is a key fish export for three countries and part of the money was meant to finance capacity building of partner state institutions, research and combating of illegal fishing nets.
+The Executive Secretary of the LVFO Mr Dick Nyeko was quoted as having said that the institutions also suffers because states lack the willingness to pay their quotas to his organization. for example, he said, the financial year which is ending within a month time, but so far Uganda hasn't paid its quota. Two months to the end of the financial year, official at the LVFO sat the organization is limping because it lacks money.
+ 
+Uganda has paid 19 per cent of its USD 300,000 quota while Kenya gave only USD 200,000 which is 46 per cent of its quota, Tanzania has so far paid USD 247,136, which is 15 per cent of its quota.
+
+The LVFO is the largest and most well known lake management organization in the EAC.
+
+"/>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,47 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="FisheriesApp.piracy"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <phone:Panorama Title="Piracy">
+            <phone:Panorama.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/PanoramaBackground.png"/>
+            </phone:Panorama.Background>
+
+            <!--Panorama item one-->
+            <phone:PanoramaItem Header="" RenderTransformOrigin="0.515,0.572" Height="713">
+                <ScrollViewer>
+                    <TextBlock TextWrapping="Wrap" FontSize="22" Height="762" Width="405">
+                    	<Run Text="The Fish Act (1964), which is currently under review, is the principal Act from which regulations for aquaculture have been developed. Existing aquaculture regulations include Fish (Aquaculture) Rules 2003, which regulate aquaculture practices, especially at the commercial level.  The National Agriculture Research System Act (2005) regulates fisheries and aquaculture research among other agriculture research areas. This Act breaks the monopoly of public agriculture research by public institutions and opens it up to other interested competent agencies and individuals through competitive research grants. In essence, it allows, in the case of aquaculture, other key players from academic institutions, "/>
+                    	<Run Text="private researchers or research agencies and other public agencies without a formal mandate to engage in aquaculture research using public funding."/>
+                    	<Run Text="  "/>
+                    </TextBlock>
+                </ScrollViewer>
+            </phone:PanoramaItem>
+
+            <!--Panorama item two-->
+            <phone:PanoramaItem Height="621">
+                <ScrollViewer Width="441" Height="586" VerticalAlignment="Bottom">
+                    <TextBlock TextWrapping="Wrap" FontSize="22" Text="The Land Act (1995) spells out the tenure system for land ownership and legal rights of what can be done in and on one's land. The Act also defines ownership of wetlands, swamps and other shallow waters within one's confine or land.  The National Environment Management Authority Statute deals with protection of the environment and regulates all activities that may impinge on the quality of the environment.  The Water Law spells out the use, access, responsibility of user, conflict resolution in water resource use and access for all users including aquaculture practitioners.  In Kenya, a draft National Fisheries Policy was developed and submitted for Parliamentary approval. In Tanzania, a National Fisheries Policy was prepared in 1997 but the DoF intends to update and expand it possibly with technical support from the IFMP project. In Uganda, the Department of Fisheries Resources developed a National Fisheries Policy, with technical and financial support from the ILM project. The policy was subsequently approved by Cabinet in 2004. These policies promote, guide and support a co-management approach, setting out roles and responsibilities of key stakeholders including Government, civil society, the private sector and NGOs." Height="986" Width="426"/>
+                </ScrollViewer>
+            </phone:PanoramaItem>
+        </phone:Panorama>
+
+
+
+    </Grid>
+
+
+</phone:PhoneApplicationPage>

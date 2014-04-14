@@ -1,0 +1,58 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
+    x:Class="Fisheries.Landing_site"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="Landing Sites in Africa" Style="{StaticResource PhoneTextNormalStyle}"/>
+           
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <maps:Map x:Name="MyMap" Center="5.354683, 24.644135" ZoomLevel="10" LandmarksEnabled="True" PedestrianFeaturesEnabled="True"/>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
+
+    
+    
+    
+    <!--
+    <Grid x:Name="ContentPanel">
+        <phone:Panorama Title="Landing Site">
+            
+            <phone:PanoramaItem Header="Map " Height="546">
+            	<Grid HorizontalAlignment="Left" Height="388" Margin="7,-28,0,0" VerticalAlignment="Top" Width="397">
+            		<maps:Map  HorizontalAlignment="Left" Margin="0,-41,-63,0" ZoomLevel="16" VerticalAlignment="Top" Height="518" Width="460" LandmarksEnabled="True" PedestrianFeaturesEnabled="True"/>
+                   
+                </Grid>
+            </phone:PanoramaItem>
+
+         
+  <phone:PanoramaItem Header="item2">
+                <Grid/>
+            </phone:PanoramaItem>
+        </phone:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>-->
