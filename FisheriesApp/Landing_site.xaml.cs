@@ -58,12 +58,12 @@ namespace Fisheries
 
             //creating the rectangle supposed to enter the grid
             Rectangle MyRectangle = new Rectangle();
-            MyRectangle.Fill = new SolidColorBrush(Colors.Black);
+            MyRectangle.Fill = new SolidColorBrush(Colors.Blue);
             MyRectangle.Height = 20;
-            MyRectangle.Width = 20;
+            MyRectangle.Width = 80;
             MyRectangle.SetValue(Grid.RowProperty, 0);
             MyRectangle.SetValue(Grid.ColumnProperty, 0);
-            MyRectangle.TextInputStart = "here";
+          //  MyRectangle.TextInputStart = "here";
 
 
             //adding a rectangle to the grid
