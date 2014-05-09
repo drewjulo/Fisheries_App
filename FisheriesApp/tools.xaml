@@ -1,0 +1,41 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyFish.Tools"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <phone:Panorama Title="Tools" Loaded="Panorama_Loaded">
+            <phone:Panorama.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/PanoramaBackground.png"/>
+            </phone:Panorama.Background>
+
+            <!--Panorama item one-->
+            <phone:PanoramaItem  RenderTransformOrigin="0.515,0.572" Height="713">
+                <ScrollViewer>
+                    <TextBlock TextWrapping="Wrap" FontSize="22" Height="1012" Width="399" Text="Overfishing has led to the reduction of fish stocks in Uganda's big natural water bodies, which contribute over 75 per cent of the total fish catch, thus threatening the country's second biggest commodity export after coffee. Pond culture is the most common system in the region. Other forms of fish culture such as cage culture are only starting to be discussed especially by the emerging commercial fish farmers. Previously farmers, 99 percent of whom were subsistence fish farmers, had ponds ranging anywhere from 50 m² to 200 m². The majority (an estimated 60 percent) remain at subsistence level of production with little or no technical inputs or management. With the drive to commercialize aquaculture, production efforts to increase the pond surface have resulted in a current average of 500 m² per pond. Farmers at this level have adopted the use of inputs such as quality fish seed and feed. The feed, however, is still usually made on-farm using formulae provided by Support Centers like the Kajjansi Aquaculture Research and Development Center.  ">
+
+                    </TextBlock>
+                </ScrollViewer>
+            </phone:PanoramaItem>
+
+            <!--Panorama item two-->
+
+        </phone:Panorama>
+
+
+
+    </Grid>
+
+
+</phone:PhoneApplicationPage>

@@ -1,0 +1,128 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="MyFish.Gender"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <phone:Panorama Title="Gender">
+            <phone:Panorama.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/PanoramaBackground.png"/>
+            </phone:Panorama.Background>
+
+            <!--Panorama item one-->
+            <phone:PanoramaItem Header="" RenderTransformOrigin="0.515,0.572" Height="713">
+                <ScrollViewer>
+                    <TextBlock TextWrapping="Wrap" FontSize="22" Height="2535" Width="405">
+                    	<Run Text="Poverty, limited access to all types of resources, and political, social and educational
+constraints has led to the subordination of women gener ally. This dynamic is entrenched in
+countries around the world, as women find it difficult or impossible to access those opportunities that might be available to their male counterparts, to improve their quality of life.
+The unequal conditions experienced by women also make them more vulnerable to environmental change and natural resource deterioration, with multiple implications at the local level, including reduced food security and diminished access to water and clean energy.
+This in turn impacts on families' and communities' health.
+In addition, women ́s work in natural resource-related production chains is intense, but barely
+recognized. Women are involved in the diversification of production in the agriculture, forest
+and fisheries sectors, with important implications for food security and food sovereignty, and
+the management of coastal, marine and forest resources.
+Coastal regions are amongst the most productive ecosystems in the world. In these areas,
+important cultural biodiversity intertwines with the richness of the sea and its resources. For
+women and men living in coastal and marine communities, fisheries are much more than just a means of employment. Small-scale fishing is a source of food for their families, and supplements their earnings from other activities such as farming and tourism. Fish is caught,
+processed, consumed and sold. Fishing provides food security, contributes to food sovereignty
+and a productive way of life, as well as an important nutritional service for non-coastal communities.
+However, there are very few sex -disaggregated statistics available about the number of women involved in fisheries-related work, and it has been difficult to introduce the concept of
+gender to any relevant decision-making platform. Furthermore, the data that is available fails to capture the multidimensional nature of the work. This is surprising since women engage in a wide range of activities in the fisheries sector and in fishing communities all around the world.
+They engage:
+●	as workers (paid and unpaid) within the fisheries, in pre-and post-harvest activities, including seafood processing plants 
+●	as the main fishers in inland fishing and aquaculture in many countries around the world.
+●	as caregivers in fishing families and communities, maintaining social networks and cultural identity as workers in non-fisheries sectors supplementing the household income from fishing, which is often erratic.
+●	as members of fishworkers' movements and fishers' organizations
+
+While the exact nature of women's work differs by culture and region and between rural and
+urban areas, the common factor is that it is rarely seen as 'productive'.
+It has low social value
+and is normally seen as an extension of the 'domestic' space.
+ "/>
+                    	<Run Text="private researchers or research agencies and other public agencies without a formal mandate to engage in aquaculture research using public funding."/>
+                    	<Run Text="  "/>
+                    </TextBlock>
+                </ScrollViewer>
+            </phone:PanoramaItem>
+
+            <!--Panorama item two-->
+            <phone:PanoramaItem Height="621">
+                <ScrollViewer Width="441" Height="586" VerticalAlignment="Bottom">
+                    <TextBlock TextWrapping="Wrap" FontSize="22" Text="On women's rights and equity issues, we must: 
+ 
+Highlight the contribution of women in fisheries and within the community, recognize 
+the multidimensional nature of their work, and facilitate legal recognition of women workers 
+in this sector 
+ 
+Take measures against the exploitation of women in their workplace, ensure social 
+security, unemployment and insurance benefits for women and their families, and work 
+towards putting an end to domestic and sexual violence. 
+ 
+Encourage women to register their organizations so that they have the necessary 
+means to access credit and participate in development programs. 
+ 
+Strengthen implementation of international conventions relevant to the elimination of 
+child labour in fisheries and aquaculture, including the Convention on the Rights of the Child 
+(CRC) and relevant ILO conventions (including with respect to informal sector household 
+chores). 
+ 
+Ensure implementation of child labour legislation through the use of incentives, 
+disincentives and enforcement mechanisms. 
+ 
+On sustainable use and conservation, we must: 
+ 
+Promote ecosystem-based marine and coastal management, and recognise and 
+promote sustainable use as a valid strategy for the adequate conservation of natural 
+resources. 
+ 
+Promote the role of women in the management of such zones and areas, and their 
+participation in programs focusing on the conservation and restoration of coastal ecosystems. 
+Facilitate information exchanges amongst them. 
+ 
+Generate gender specific proposals that will permit women and women's 
+organizations to implement their ideas and actions related to conservation and sustainable 
+use. 
+ 
+Encourage information exchanges amongst involved women, and training programs 
+for communities, especially gender-related events and others that enable fishing communities 
+to carry out their own surveys and produce their own documents, so that they can maintain 
+and improve the responsible management of their resources. 
+ 
+Use traditional knowledge, with the approval and involvement of the holders of such 
+knowledge (including women), along with the best available scientific and technical 
+knowledge, as the basis for the description of areas that meet the criteria for EBSAs. 
+Indigenous peoples and local communities must be involved in the process of describing 
+EBSAs, by inviting them to regional workshops and consultations. relevant Social and cultural information relevant to any subsequent step in the process of selecting conservation and 
+management measures, should be implemented. 
+ 
+Promote the participation of fisherwoman in all relevant the fora to discuss global and 
+national actions concerning the conservation of marine ecosystems. 
+ 
+Support the process for the approval of the FAO International Guidelines for Securing 
+Sustainable Small-scale Fisheries. 
+ 
+Eliminate subsidies for industrial fishing fleets and encourage community-based 
+governance models for marine protected area
+" Height="1640" Width="426"/>
+                </ScrollViewer>
+            </phone:PanoramaItem>
+        </phone:Panorama>
+
+
+
+    </Grid>
+
+
+</phone:PhoneApplicationPage>
